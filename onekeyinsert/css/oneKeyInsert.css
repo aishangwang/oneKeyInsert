@@ -1,0 +1,15 @@
+*{padding: 0;margin: 0}
+ul{list-style: none}
+.oneKeyBox{width: 30%;margin: 0 auto}
+.oneKeyBox >textarea{width: 100%}
+.oneKeyBox >ul{width: 100%;}
+.oneKeyBox >ul >li{position:relative;width: 30%;height:40px;line-height:40px;float: left;text-align: center;margin-left:2.5%;cursor: pointer;border-radius: 4px;}
+.oneKeyBox >ul >li:nth-child(1){margin-bottom: 15px;}
+.oneKeyBox >ul >li:nth-child(2){margin-bottom: 15px;}
+.oneKeyBox >ul >li:nth-child(3){margin-bottom: 15px;}
+.oneKeyBox >ul >li> span{display:block;font-size: 14px;color:#fff;background-color:#64BDC0;border-radius: 4px;}
+.oneKeyBox>ul>li >span:hover{background-color:#AFE1DE;}
+.oneKeyBox >ul>li >span:hover:after{content: '+';color:green;position: absolute;left: 45%;font-size: 20px;}
+.oneKeyBox >ul >li .label-gray{background-color:#E9E9E9;}
+.oneKeyBox ul> li > .label-gray:hover{ background: #E9E9E9}
+.oneKeyBox ul> li > .label-gray:hover:after{ content: 'x';color:red;position: absolute;left: 45%;font-size: 18px;}
